@@ -29,5 +29,6 @@ namespace Delicacy_UA
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<ProductType> ProductTypes { get; set; }
         public virtual DbSet<TypesOfProductType> TypesOfProductTypes { get; set; }
+        public virtual DbSet<UserInformation> UserInformations { get; set; }
     }
 }

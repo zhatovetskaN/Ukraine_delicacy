@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using Delicacy_UA.Models;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,17 @@ namespace Delicacy_UA
 
                     if (result.Succeeded)
                     {
+                        UserInformation info = new UserInformation
+                        {
+                            FirstName = TxtFirstName.Text,
+                            LastName = TxtLastName.Text,
+                            Address = TxtAddress.Text,
+                            PostalCode = Convert.ToInt32(TxtPostCode.Text),
+                            GUID = user.Id
+                        };
+                        UserInfoModel model = new UserInfoModel();
+                        model.InsertUserInformation(info);
+
                         //Store user in DB
                         var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
                         //Set to login user by coockie

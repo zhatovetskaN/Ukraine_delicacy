@@ -49,6 +49,42 @@ namespace Delicacy_UA {
         protected global::System.Web.UI.WebControls.TextBox txtConfirmPass;
         
         /// <summary>
+        /// TxtFirstName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtFirstName;
+        
+        /// <summary>
+        /// TxtLastName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtLastName;
+        
+        /// <summary>
+        /// TxtAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtAddress;
+        
+        /// <summary>
+        /// TxtPostCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtPostCode;
+        
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>

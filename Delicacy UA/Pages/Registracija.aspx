@@ -15,6 +15,27 @@
 <br />Ponovi lozinku:<br />
 <br />
 <asp:TextBox ID="txtConfirmPass" runat="server" CssClass="input" TextMode="Password"></asp:TextBox>
+    <br />
+    <br />
+    Ime:<br />
+    <br />
+    <asp:TextBox ID="TxtFirstName" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    Prezime:<br />
+    <br />
+    <asp:TextBox ID="TxtLastName" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    Adresa:<br />
+    <br />
+    <asp:TextBox ID="TxtAddress" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    Poštanski broj:<br />
+    <br />
+    <asp:TextBox ID="TxtPostCode" runat="server"></asp:TextBox>
+    <br />
 <br />
 <br />
 <asp:Button ID="Button1" runat="server" CssClass="auto-style11" OnClick="Button1_Click" Text="Pošalji" Height="48px" Width="141px" />
